@@ -1,5 +1,9 @@
 # moonbois
 
+Moonbois ERC20 smart contract => https://mumbai.polygonscan.com/address/0xf01f8c9ff2ea50ef3bf700db403228dcb58daaec
+
+Moonbois staking smart contract => https://mumbai.polygonscan.com/address/0xeec09845dcea44ddca9151226900dfadb338528a
+
 Moonbois consists of 2 smart contracts moonbois and staking, 
 
 Moonbois is ERC20 smart contract that has the 3 major functions minting, transfer, and setup staking smart contract. The contract will mint the total supply at the time of deployment and transfer it to the owner's wallet. And transfer function overrides the base contract to add functionality like punishing paper hands for selling the moonbois token by taking a 10% fee on every transaction, In 10% we burn 5% and the balance 5% is added to the staking pool to reward more users who lockup their funds. 
